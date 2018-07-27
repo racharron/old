@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Context_Test
+Bundle-SymbolicName: Context_Test;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: context_test.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text;bundle-version="3.13.0",
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-10
+Automatic-Module-Name: Context_Test
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.jdt.core,
+ org.eclipse.jdt.core.dom,
+ org.eclipse.ui.texteditor
